@@ -57,5 +57,7 @@ GREEN CABLE<br>
 
 (https://github.com/Ioannesi/ARDUINO/issues/4#issue-668035172)
 
-<hr><h4>STEPS</h4>
-1. 
+<hr><h3>STEPS</h3>
+1. Download Arduino IDE
+2. Connect arduno Uno with PC. copy the code from file Arduino Code and uploadit in platform.
+3. Copy the files android manifest, main activity java and create activity hml.
