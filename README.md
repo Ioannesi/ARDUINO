@@ -20,3 +20,42 @@ https://www.arduino.cc/en/main/software
  
 <hr><h4>RELAY</h4>
 ![image](https://github.com/Ioannesi/ARDUINO/commit/7ff8a200e7255acb9225f483d19af6f8a8abb2bc#r41010392)
+
+<hr><h4>TrANZISTOR BC547</h4>
+(https://github.com/Ioannesi/ARDUINO/issues/2#issue-668025335)
+
+<hr> <h4> Wiring</h4>
+<h5><b> CAUTION !!
+any configuration of an electronic device in order to connect to the relay to be done with the use of protective gloves and while it is not connected to electricity.
+the Ethernet shield platform is mounted on the platform above the platform terminals. At the top the Ethernet shield also has some terminals, which work just like the arduino terminals. Our purpose is through these terminals to exercise control over electrical appliances.
+ (https://github.com/Ioannesi/ARDUINO/issues/3#issue-668030350)</b>
+ 
+The Connections are as follows:
+
+BLACK CABLE
+[Arduino uno] 5v baseb base [transistor 1]<br>
+c collect [transistor 1] 🡪 VCC [relay]<br>
+and emitter [transistor 1] 🡪 GND [Arduino uno]<br>
+red CABLE<br>
+ [Arduino uno] pin6 🡪 b base [transistor 2]<br>
+C collect [transistor 2] 1int 1 [relay]<br>
+e emmiter [transistor 2] 🡪 GND [Arduino uno]<br>
+GREEN CABLE<br>
+[Arduino uno] pin7 🡪 b base [transistor 3]<br>
+C collect [transistor 3] 2int 2 [relay]<br>
+e emmiter [transistor 3] 🡪 GND [Arduino uno]<br>
+BLUE CABLE<br>
+[Arduino uno] pin8 🡪 b base [transistor 4]<br>
+C collect [transistor 4] 3int 3 [relay]<br>
+and emitter [transistor 4] 🡪 GND [Arduino uno]<br>
+BLACK CABLE<br>
+[Arduino uno] pin9 🡪 b base [transistor 5]<br>
+C collect [transistor 5] 1int 1 [relay]<br>
+and emitter [transistor 5] 🡪 GND [Arduino uno]<br>
+GREEN CABLE<br>
+[relay] GND 🡪GND [Arduino uno]<br>
+
+(https://github.com/Ioannesi/ARDUINO/issues/4#issue-668035172)
+
+<hr><h4>STEPS</h4>
+1. 
