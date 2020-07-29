@@ -19,6 +19,4 @@ More information
 https://www.arduino.cc/en/main/software
  
 <hr><h4>RELAY</h4>
-<img src="rele.png"
-     alt="4 channel relay"
-     style="float: left; margin-right: 10px;" />
+![image](https://github.com/Ioannesi/ARDUINO/commit/7ff8a200e7255acb9225f483d19af6f8a8abb2bc#r41010392)
